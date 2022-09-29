@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to improve the platform</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name
+        <input id="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <label for="email" id="email-label">Email
+        <input id="email" type="email" placeholder="Enter your email" required>
+        </label>
+        <label for="number" id="number-label">Enter a number (optional)
+        <input id="number" type="number" min="0" max="5" placeholder="Enter a number (0-5)">
+        </label>
+        <label for="dropdown" id="dropdown-label">Select an option
+        </label></br>
+        <select id="dropdown" type="select">
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select></br>
+        <label id="radio-labels">Pick a radio button
+        </label></br>
+        <input type="radio" id="option 1" name="radios" value="option 1">
+        <label for="option 1">Option 1
+        </label></br>
+        <input type="radio" id="option 2" name="radios" value="option 2">
+        <label for="option 2">Option 2
+        </label></br>
+        <label id="checkbox-labels">Select multiple choices
+        </label></br>
+        <input type="checkbox" name="Check 1" id="Check 1" value="Check 1">
+        <label for="Check 1">Check 1
+        </label></br>
+        <input type="checkbox" name="Check 2" id="Check 2" value="Check 2">
+        <label for="Check 2">Check 2
+        </label></br>
+        <label for="comments">Additional Comments:
+        </label>
+        <textarea id="comments" name="comments"></textarea></br>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </main>
+  </body>
+</html>

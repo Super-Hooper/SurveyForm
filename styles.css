@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  width: 80%;
+grid-template-columns: auto;
+margin: auto;
+}
+
+header {
+
+justify-self: center;
+display: grid;
+grid-template-columns: auto;
+}
+
+#title {
+  justify-self: center;
+}
+
+#description {
+  justify-self: center;
+}
+
+main {
+  justify-self: center;
+}
